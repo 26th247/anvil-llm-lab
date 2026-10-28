@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded book PDFs and extracted text (homework data, not code)
+books/
+books_text/

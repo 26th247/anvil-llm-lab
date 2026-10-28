@@ -1,0 +1,27 @@
+[project]
+name = "anvil-llm-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harun-Abdulqadir", email = "harun.abdulqadir@hellofresh.co.uk" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "gitsource>=0.0.5",
+    "jaxn>=0.0.5",
+    "jupyter>=1.1.1",
+    "markitdown[pdf]>=0.1.9",
+    "minsearch>=0.2.0",
+    "openai>=3.24.0",
+    "python-dotenv>=1.2.4",
+    "python-frontmatter>=1.3.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+anvil-llm-lab = "anvil_llm_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
